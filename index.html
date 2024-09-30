@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="src/output.css" rel="stylesheet">
-    <title>Portofolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Link ke file CSS Tailwind Anda -->
+    <link href="path/to/your/tailwind.css" rel="stylesheet">
 </head>
 
 <body>
@@ -14,7 +16,7 @@
         <div class="container">
             <div class="flex items-center justify-between relative">
                 <div class="px-4">
-                    <a href="#home" class="font-bold text-lg text-primary block py-6">Muhammad Amirul</a>
+                    <a href="#home" class="font-bold text-lg text-primary block py-6 uppercase">Muhammad Amirul</a>
                 </div>
                 <div class="flex items-center px-4">
                     <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
@@ -28,28 +30,28 @@
                         <ul class="block lg:flex">
                             <li class="group">
                                 <a href="#home"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                                    class="text-base font-semibold text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
                             </li>
                             <li class="group">
                                 <a href="#about"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang
+                                    class="text-base font-semibold text-dark py-2 mx-8 flex group-hover:text-primary">Tentang
                                     Saya</a>
                             </li>
                             <li class="group">
                                 <a href="#desain"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Desain</a>
+                                    class="text-base font-semibold text-dark py-2 mx-8 flex group-hover:text-primary">Desain</a>
                             </li>
                             <li class="group">
                                 <a href="#coding"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Coding</a>
+                                    class="text-base font-semibold text-dark py-2 mx-8 flex group-hover:text-primary">Coding</a>
                             </li>
                             <li class="group">
                                 <a href="#pengalaman"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Pengalaman</a>
+                                    class="text-base font-semibold text-dark py-2 mx-8 flex group-hover:text-primary">Pengalaman</a>
                             </li>
                             <li class="group">
                                 <a href="#contact"
-                                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">kontak</a>
+                                    class="text-base font-semibold text-dark py-2 mx-8 flex group-hover:text-primary">Kontak</a>
                             </li>
                         </ul>
                     </nav>
@@ -64,12 +66,14 @@
         <div class="container">
             <div class="flex flex-wrap">
                 <div class="w-full self-center px-4 lg:w-1/2 lg:pl-32">
-                    <h1 class="text-base font-semibold text-primary md:text-xl">Hallo, Saya <span
+                    <h1 class="text-base font-semibold text-primary md:text-xl">Hallo👋, Saya <span
                             class="block font-bold text-dark text-4xl mt-1 lg:text-5xl">Muhammad Amirul</span></h1>
-                    <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl">Mahasiswa</h2>
-                    <p class="font-medium text-secondary mb-10 leading-relaxed">saya adalah mahasiswa LP3I Jakarta prodi
-                        manajemen informatika</p>
-                    <a href="#"
+                    <!-- <h2 class="font-medium text-secondary text-lg mb-5 lg:text-2xl"></h2> -->
+                    <p class="font-medium text-secondary mb-10 leading-relaxed">Saya adalah lulusan dari LP3I Jakarta,
+                        Program Studi Manajemen Informatika, dengan masa studi dari tahun 2021 hingga 2024. Selama waktu
+                        tersebut, saya mengembangkan pengetahuan dan keterampilan di bidang teknologi informasi serta
+                        manajemen, dan saya siap untuk menghadapi tantangan di dunia profesional.</p>
+                    <a href="#contact"
                         class="text-base font-semibold text-white bg-primary py-3 px-5 rounded-full hover:shadow-lg hover:opacity-80 transition duration-300 ease-in-out">Hubungi
                         saya</a>
                 </div>
@@ -97,13 +101,16 @@
                 <div class="w-full px-4 mb-10 lg:w-1/2">
                     <h4 class="font-bold uppercase text-primary text-lg mb-3">Tentang Saya</h4>
                     <h2 class="font-bold text-dark text-3xl mb-5 max-w-md lg:text-4xl">Muhammad Amirul</h2>
-                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya adalah Lulusan Manajemen
-                        Informatika Yang mendalami Coding dan Desain</p>
+                    <p class="font-medium text-base text-secondary max-w-xl lg:text-lg">Saya adalah lulusan Manajemen
+                        Informatika dengan minat mendalam dalam coding dan desain. Saya senang menggabungkan aspek
+                        teknis dan kreatif dalam pekerjaan saya, dan selalu berusaha untuk terus belajar dan
+                        mengembangkan keterampilan saya di bidang ini.</p>
                 </div>
                 <div class="w-full px-4 lg:w-1/2">
-                    <h3 class="font-bold uppercase text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Mari Berteman</h3>
-                    <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Mari Berteman dengan Menghubukan
-                        saya melalui media sosial</p>
+                    <h3 class="font-bold uppercase text-dark text-2xl mb-4 lg:text-3xl lg:pt-10">Hubungi saya</h3>
+                    <p class="font-medium text-base text-secondary mb-6 lg:text-lg">Saya sangat senang jika kita bisa
+                        berteman! Silakan hubungi saya melalui media sosial yang ada. Mari kita berbagi cerita dan
+                        pengalaman bersama!</p>
                     <div class="flex items-center">
                         <!-- Instagram -->
                         <a href="https://instagram.com/amiruul_16" target="_blank"
@@ -149,9 +156,9 @@
         <div class="container">
             <div class="w-full px-4">
                 <div class="max-w-xl mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">Project</h4>
+                    <h4 class="font-semibold text-lg text-primary mb-2 uppercase">Project</h4>
                     <h2 class="font-bold text-dark text-3xl mb-4 sm:text-4xl lg:text-5xl">Desain</h2>
-                    <p class="font-medium text-base text-secondary md:text-lg">Saya pernah Membuat Beberapa desain</p>
+                    <p class="font-medium text-base text-secondary md:text-lg">Saya telah membuat beberapa desain.</p>
                 </div>
             </div>
 
@@ -239,8 +246,8 @@
                 <div class="mx-auto text-center mb-16">
                     <h4 class="font-semibold text-lg text-primary mb-2">Pengalaman</h4>
                     <h2 class="font-bold text-white text-3xl mb-4 sm:text-4xl lg:text-5xl">Bekerja</h2>
-                    <p class="font-medium text-base text-secondary md:text-lg">Saya memiliki pengalaman berkerja pada
-                        perusahaan dan untuk membuatkan website untuk sekolah</p>
+                    <p class="font-medium text-base text-secondary md:text-lg">Saya memiliki pengalaman bekerja di
+                        sebuah perusahaan, <br> mana saya bertanggung jawab untuk membuat website untuk sekolah.</p>
                 </div>
             </div>
 
@@ -265,9 +272,10 @@
         <div class="container">
             <div class="w-full px-14">
                 <div class="mx-auto text-center mb-16">
-                    <h4 class="font-semibold text-lg text-primary mb-2">Contact</h4>
-                    <h2 class="font-bold text-black text-3xl mb-4 sm:text-4xl lg:text-5xl">Hubungi saya</h2>
-                    <p class="font-medium text-base text-secondary md:text-lg">Hubungi saya dengan mengisi dibawah ini
+                    <h4 class="font-semibold text-lg text-primary">Contact</h4>
+                    <h2 class="font-bold text-black text-3xl mb-2 sm:text-4xl lg:text-5xl">Hubungi saya</h2>
+                    <p class="font-medium text-base text-secondary md:text-lg">Hubungi saya dengan mengisi resensi
+                        dibawah ini
                     </p>
                 </div>
             </div>
@@ -305,16 +313,20 @@
                 <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/2">
                     <h2 class="font-bold text-4xl text-white mb-5">Muhammad Amirul</h2>
                     <p class="font-bold text-2xl mb-2">Hubungi Saya</p>
-                    <p>muhammadammirul05.am@gmail.com</p>
+                    <p class="mb-2">muhammadammirul05.am@gmail.com</p>
+                    <p class="mb-2">+62-851-6126-8954</p>
                 </div>
                 <div class="w-full px-4 mb-12 md:w-1/2">
-                    <h3 class="font-semibold text-xl text-white mb-5">Kategori</h3>
+                    <h3 class="font-bold text-4xl text-white mb-5">Kategori</h3>
                     <ul class="text-slate-300">
                         <li>
-                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Desain</a>
+                            <a href="#desain" class="inline-block text-base hover:text-primary mb-3">Desain</a>
                         </li>
                         <li>
-                            <a href="#" class="inline-block text-base hover:text-primary mb-3">Coding</a>
+                            <a href="#coding" class="inline-block text-base hover:text-primary mb-3">Coding</a>
+                        </li>
+                        <li>
+                            <a href="#pengalaman" class="inline-block text-base hover:text-primary mb-3">Pengalaman</a>
                         </li>
                     </ul>
                 </div>

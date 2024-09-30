@@ -3,6 +3,9 @@ module.exports = {
   content: ['index.html'],
   theme: {
     extend: {
+      fontFamily: {
+        mono: ['Roboto Mono', 'monospace'], // Menambahkan font baru
+      },
       container: {
         center: true,
         padding: '16px',
